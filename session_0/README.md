@@ -1,4 +1,4 @@
-## *Video Reseources*
+## *Video Resources*
 
 [video 1](https://drive.google.com/file/d/1sRkNfdYD-V3TRjyy_D0N6Loc2GwyR5af/view?usp=sharing) Variables 
 

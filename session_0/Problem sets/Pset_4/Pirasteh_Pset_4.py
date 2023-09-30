@@ -1,4 +1,4 @@
-user_input = input("Enter your pants color: ")
+user_input = input("Enter your memory: ")
 
 lowercase_user_input = user_input.lower()
 

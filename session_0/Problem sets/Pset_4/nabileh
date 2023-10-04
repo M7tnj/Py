@@ -1,0 +1,5 @@
+sequence = input("please enter your sequence:")
+
+lower_sequence = sequence.lower().strip()
+
+print(lower_sequence)

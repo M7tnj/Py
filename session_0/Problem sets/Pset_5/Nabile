@@ -1,0 +1,5 @@
+address = input("enter your address:")
+
+address = address.replace(" ","...")
+
+print(address)

@@ -1,0 +1,5 @@
+seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+
+complement_of_dna = seq.replace("A","z").replace("G","x").replace("x","C").replace("T","z").replace("z","T").replace("C","G")
+
+print(complement_of_dna)

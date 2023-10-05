@@ -1,5 +1,8 @@
 seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
-complement_of_dna = seq.replace("A","z").replace("G","x").replace("x","C").replace("T","z").replace("z","T").replace("C","G")
+seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
-print(complement_of_dna)
+seq_1 = seq.replace("A","t").replace("C","g")
+seq_2 = seq_1.replace("T","a").replace("G","c")
+seq_3 = seq_2.upper() 
+print(seq_3)

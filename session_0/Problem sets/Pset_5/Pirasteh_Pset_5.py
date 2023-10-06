@@ -1,4 +1,4 @@
-user_input = input("Please enter your link: ")
+user_input = input("Please enter your link:")
 
 new_user_input = user_input.replace(" ", "...")
 

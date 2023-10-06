@@ -1,3 +1,5 @@
+# add pseudocode 
+# understand the task! [Calculate AT content]
 dna_seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
 a_count = dna_seq.count("A")

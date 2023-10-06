@@ -2,8 +2,8 @@ seq = "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
 
 seq1 = seq.find("GAATTC")+1
 seq2 =len(seq)
-seq3 = seq[1:22]
-seq4 = seq[23:55]
+seq3 = seq[0:22]
+seq4 = seq[22:55]
 seq5 = len(seq3),len(seq4)
 
 print(seq5)

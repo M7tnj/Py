@@ -1,5 +1,7 @@
 seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
-
-complement_seq = seq.replace("T","x").replace("G","z").replace("A","T").replace("C","G").replace("x","A").replace("z","C")
-
-print(complement_seq)
+i1 = seq.replace("A","t")
+i2 = i1.replace("T","a")
+i3 = i2.replace("C","g")
+i4 = i3.replace("G","c")
+new_seq = i4.upper()
+print(new_seq)

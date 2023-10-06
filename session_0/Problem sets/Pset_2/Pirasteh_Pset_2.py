@@ -4,6 +4,9 @@
 
 dna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
-complement = [x.replace("A","t").replace("T","a").replace("G","c").replace("C","g").upper() for x in dna] # list methods haven't been tought yet
+complement = dna.replace("A","t").replace("T","a").replace("G","c").replace("C","g")
+
+#ATTENTION: it turns out, the replace function is pretty case sensetive
+complement = complement.upper()
 
 print(complement)

@@ -1,0 +1,6 @@
+def Einestin (m,c):
+   E=m*c**2
+   return E
+m = int(input("enter the namber: "))
+c = 300000000
+print(m*(c**2))

@@ -1,0 +1,11 @@
+def AT_Calculator (A,B):
+    j = (A/B)*100
+    return j
+
+DNAsequence = input ("tell me your sequence")
+A = DNAsequence.count("AT")
+B =len(DNAsequence)
+
+j = AT_Calculator (A,B)
+
+print(j)

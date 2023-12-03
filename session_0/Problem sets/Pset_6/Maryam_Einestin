@@ -1,0 +1,7 @@
+def calculate_energy (m,c):
+    E=m*c**2
+    return E
+m = int(input("entr your name:"))
+c = 300000000
+Einestin = calculate_energy (m,c)
+print(Einestin)

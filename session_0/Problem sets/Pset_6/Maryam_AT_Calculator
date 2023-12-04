@@ -1,0 +1,10 @@
+def AT_Calculator(A,C):
+    X = (A/C) *100
+    return X
+seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+A = seq.count("A")
+C = seq.count("T")
+c = (A+C)/len(seq)*100
+d = round(c)
+Calculator = AT_Calculator(A,C)
+print(d,Calculator)

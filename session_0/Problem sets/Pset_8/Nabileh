@@ -1,0 +1,9 @@
+def calculate_tip(food_price):
+    tip_amount = food_price * 0.15
+    return tip_amount
+
+food_price = int(input("Please enter the amount of food : "))
+
+tip = calculate_tip(food_price) 
+
+print("Pre-service tip is equal to:", tip)

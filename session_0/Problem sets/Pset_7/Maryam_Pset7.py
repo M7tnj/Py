@@ -5,6 +5,6 @@ def converter(input_string):
 
 def main():
    user_input = input("Enter an Emoticons:")
-   result = convert(user_input)
+   result = converter(user_input)
    print(result)
 main()

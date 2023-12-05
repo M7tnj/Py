@@ -1,0 +1,6 @@
+def playback(song):
+	x = song.replace(" ", "...")
+	return x
+song = input("tell me your favorite music:")
+y = playback(song)
+print(y)

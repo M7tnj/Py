@@ -1,7 +1,10 @@
-def converter(emoticons):
- moticons= emoticons.replace(":(", "🙁")
- moticons= emoticons.replace(":)", "🙂")
- return emoticons
+def converter(input_string):
+ input_string = input_string.replace(":(", "🙁")
+ input_string = input_string.replace(":)", "🙂")
+ return input_string
 
-convert_input = input("Enter an Emoticons")
-print(convert_input)
+ def main();
+ user_input = ("Enter an Emoticons:")
+result = converter(user_input)
+print(result)
+      main()

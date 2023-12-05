@@ -1,0 +1,11 @@
+def frogment_calculator(dna_sequence):
+ cut_site = ("GAATTC")
+ return cut_site
+seq = "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
+dna_sequence = seq.find("GAATTC")+1
+b = len(seq)
+c = seq[0:22]
+d = seq[22:55]
+e = len(c),len(d)
+frogment = frogment_calculator(dna_sequence)
+print(e,frogment)

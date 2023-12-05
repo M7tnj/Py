@@ -1,0 +1,6 @@
+def indoor_voice():
+    user_input = input("Please enter some text: ")
+    lowercase_input = user_input.lower()
+    print(lowercase_input)
+   
+indoor_voice()
